@@ -5,8 +5,6 @@ import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
-    <>
-    <ToastContainer />
     <BrowserRouter>
     
       <div className='relative z-0 bg-primary'>
@@ -26,7 +24,6 @@ const App = () => {
         <ContactSection />
       </div>
     </BrowserRouter>
-    </>
   );
 }
 
